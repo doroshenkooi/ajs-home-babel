@@ -1,0 +1,34 @@
+{
+  "name": "ajs-home-babel",
+  "version": "1.0.0",
+  "description": "\"Home work\"",
+  "main": "index.js",
+  "scripts": {
+
+         "test": "echo \"Error: no test specified\" && exit 1",
+          "build": "babel src -d dist"
+  
+      },
+    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doroshenkooi/ajs-home-babel.git"
+  },
+  "keywords": [
+    "work"
+  ],
+  "author": "Oleg-I",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doroshenkooi/ajs-home-babel/issues"
+  },
+  "homepage": "https://github.com/doroshenkooi/ajs-home-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3"
+  },
+  "dependencies": {
+    "core-js": "^3.36.1"
+  }
+}
